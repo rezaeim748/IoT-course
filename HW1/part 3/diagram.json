@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega1", "top": 472.6, "left": 17.07, "attrs": {} },
+    { "type": "wokwi-membrane-keypad", "id": "keypad1", "top": -86.8, "left": 64.67, "attrs": {} },
+    { "type": "wokwi-7segment", "id": "sevseg1", "top": 208.18, "left": 678.55, "attrs": {} },
+    { "type": "wokwi-7segment", "id": "sevseg2", "top": 208.18, "left": 736.15, "attrs": {} },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": 782.4,
+      "left": -55.33,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "keypad1:R1", "mega1:13", "green", [ "v19.2", "h-19.2" ] ],
+    [ "keypad1:R2", "mega1:12", "green", [ "v28.8", "h-19.6" ] ],
+    [ "keypad1:R3", "mega1:11", "green", [ "v38.4", "h-19.5" ] ],
+    [ "keypad1:R4", "mega1:10", "green", [ "v48", "h-19.4" ] ],
+    [ "keypad1:C1", "mega1:9", "green", [ "v57.6", "h-19.3" ] ],
+    [ "keypad1:C2", "mega1:8", "green", [ "v67.2", "h-9.6" ] ],
+    [ "keypad1:C3", "mega1:7", "green", [ "v76.8", "h-9.75" ] ],
+    [ "keypad1:C4", "mega1:6", "green", [ "v96", "h-9.9" ] ],
+    [ "sevseg1:A", "mega1:14", "green", [ "v-114.36", "h-259.2", "v134.4", "h-9.6" ] ],
+    [ "sevseg1:B", "mega1:15", "green", [ "v-95.16", "h-259.2", "v124.8", "h-153.6" ] ],
+    [ "sevseg1:C", "mega1:16", "green", [ "v19.2", "h-38.4" ] ],
+    [ "sevseg1:D", "mega1:17", "green", [ "v28.8", "h-374.4", "v9.6" ] ],
+    [ "sevseg1:E", "mega1:18", "green", [ "v38.4", "h-355.2" ] ],
+    [ "sevseg1:F", "mega1:19", "green", [ "v-85.56", "h-220.8", "v124.8", "h-134.4" ] ],
+    [ "sevseg1:G", "mega1:20", "green", [ "v-75.96", "h-201.6", "v124.8", "h-124.8" ] ],
+    [ "sevseg1:DP", "mega1:21", "green", [ "v48", "h-364.8" ] ],
+    [ "sevseg1:COM.1", "mega1:A0", "green", [ "h0", "v432", "h-480" ] ],
+    [ "sevseg2:COM.1", "mega1:A1", "green", [ "h0", "v451.2", "h-518.4" ] ],
+    [ "sevseg2:A", "mega1:23", "green", [ "v-66.36", "h-278.4", "v364.8" ] ],
+    [ "sevseg2:B", "mega1:25", "green", [ "v-56.76", "h-278.4", "v336" ] ],
+    [ "sevseg2:C", "mega1:27", "green", [ "v230.4" ] ],
+    [ "sevseg2:D", "mega1:29", "green", [ "v240" ] ],
+    [ "sevseg2:E", "mega1:31", "green", [ "v0" ] ],
+    [ "sevseg2:F", "mega1:33", "green", [ "v-18.36", "h38.4", "v345.6", "h9.6" ] ],
+    [ "sevseg2:G", "mega1:35", "green", [ "v-27.96", "h57.6", "v364.8" ] ],
+    [ "sevseg2:DP", "mega1:37", "green", [ "v278.4" ] ],
+    [ "ldr1:VCC", "mega1:3.3V", "red", [ "h0" ] ],
+    [ "ldr1:GND", "mega1:GND.2", "black", [ "h0" ] ],
+    [ "ldr1:AO", "mega1:A2", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
