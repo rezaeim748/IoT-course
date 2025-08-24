@@ -39,6 +39,4 @@ This system demonstrates distributed IoT communication for managing an electroni
 ---
 
 ## 🎥 Demonstration
-You can watch the demo here:
-
-[▶️ Watch HW2 Part 4 Demo](../videos/HW2_Part4.mp4)
+https://github.com/user-attachments/assets/91341e92-99c7-485a-89b2-2b448f9e8d04
