@@ -23,6 +23,4 @@ Set up a smart blind system to control the amount of light entering a room.
 ---
 
 ## 🎥 Demonstration
-You can watch the demo here:
-
-[▶️ Watch HW2 Part 3 Demo](../videos/HW2_Part3.mp4)
+https://github.com/user-attachments/assets/34d8ef47-f0b8-4cdd-9c09-04102ca97ce5
