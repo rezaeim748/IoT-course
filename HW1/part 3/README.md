@@ -28,6 +28,4 @@ This exercise introduces:
 ---
 
 ## 🎥 Demonstration
-You can watch the demo here:
-
-[▶️ Watch Part 3 Demo](../videos/HW1_Part3.mp4)
+https://github.com/user-attachments/assets/1ed9cab4-89e8-42d8-b63b-35f70147b30d
