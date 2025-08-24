@@ -20,31 +20,13 @@ Simulate a **mobile phone alarm** using a **buzzer** over a Zigbee network with 
 ---
 
 ## 📝 Description
-This part implements a two-node Zigbee system that mimics a phone alarm:
-
-- **Node A (Controller):**  
-  - Reads an integer `t` (seconds) from the keypad.  
-  - Starts a countdown timer locally.  
-  - When `t` elapses, sends a Zigbee message `RING` to Node B.  
-  - Handles buttons:  
-    - **SNOOZE:** sends `SNOOZE`/`SILENCE` to Node B, waits **5 s**, then sends `RING` again.  
-    - **STOP:** sends `STOP` to Node B and terminates the alarm.  
-  - Prints the protocol and states to Serial: `SET t=...`, `COUNTDOWN`, `RING → sent`, `SNOOZE`, `STOP`, etc.
-
-- **Node B (Alarm):**  
-  - Waits for Zigbee commands.  
-  - On `RING` → **buzzer ON** (continuous or patterned tone).  
-  - On `SILENCE`/`SNOOZE`/`STOP` → **buzzer OFF**.  
-  - Logs received commands to Serial for verification.
-
-This exercise covers:
-- Multi-node coordination over **Zigbee**.  
-- Keypad input and **button-driven state machine** (Idle → Waiting → Ringing → Snooze/Stopped).  
-- Clear serial logging for reproducibility.
+- Node A reads a number `t` (seconds) from the keypad and starts a timer.  
+- When the timer finishes, Node A tells Node B to **ring**.  
+- **Snooze**: stop the ring now and ring again after **5 s**.  
+- **Stop**: stop the ring and finish.  
+- Both nodes print what they do to the Serial Monitor (sent/received commands and buzzer/btn states).
 
 ---
 
 ## 🎥 Demonstration
-You can watch the demo here:
-
-[▶️ Watch HW2 Part 2 Demo](../videos/HW2_Part2.mp4)
+https://github.com/user-attachments/assets/4ef7838b-9a6e-4907-839b-b04836f1c9a4
