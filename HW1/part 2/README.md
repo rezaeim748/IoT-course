@@ -25,6 +25,5 @@ This exercise introduces:
 ---
 
 ## 🎥 Demonstration
-You can watch the demo here:
+https://github.com/user-attachments/assets/25b3589d-1d7e-4f17-8b01-2377e0cc0c9f
 
-[▶️ Watch Part 2 Demo](../videos/HW1_Part2.mp4)
