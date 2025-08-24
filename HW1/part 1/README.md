@@ -12,6 +12,5 @@ The program initializes serial communication at `9600` baud rate and prints the 
 ---
 
 ## 🎥 Demonstration
-You can watch the demo here:
+https://github.com/user-attachments/assets/32508dd4-4d14-4946-92fc-8d4b8c411f0d
 
-[▶️ Watch Part 1 Demo](videos/part1-demo.mp4)
