@@ -36,6 +36,6 @@ This exercise introduces:
 ---
 
 ## 🎥 Demonstration
-You can watch the demo here:
+https://github.com/user-attachments/assets/1cfeb48c-026d-4a63-aff8-93dee70e8330
 
-[▶️ Watch HW2 Part 1 Demo](../videos/HW2_Part1.mp4)
+https://github.com/user-attachments/assets/1c077c36-d5dc-4c23-8fe8-c15e1c77cc75
