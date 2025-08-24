@@ -25,4 +25,3 @@ Each part includes a **demo video**, available in the corresponding `videos/` fo
 
 ## 📌 Notes
 - Each homework part has its own `README.md` with problem description and explanation.  
-- All implementations are done using **Arduino and IoT tools** such as Zigbee and Blynk.  
