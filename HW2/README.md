@@ -16,4 +16,3 @@ Each part of the homework is organized in its own folder with a dedicated `READM
 
 ## 📌 Notes
 - Each part has its **own README.md** with details.  
-- The `videos/` folder contains demonstration videos linked in each part’s README.  
