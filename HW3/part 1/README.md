@@ -37,5 +37,4 @@ This project demonstrates how to establish communication between two IoT compone
 ---
 
 ## 🎥 Demonstration
-https://github.com/user-attachments/assets/example-demo-url
-
+https://github.com/rezaeim748/IoT-course/blob/main/HW3/videos/HW3_Part1.mp4
