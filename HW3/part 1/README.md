@@ -21,7 +21,7 @@ Implement a **CoAP-based communication system** consisting of one **server** and
 
 ---
 
-## 🖝 Description
+## 📝 Description
 This project demonstrates how to establish communication between two IoT components using the **CoAP (Constrained Application Protocol)**.  
 
 - The **server** defines a CoAP resource named `/alarm`, which supports both `POST` and `GET` methods.  
