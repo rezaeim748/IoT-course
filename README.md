@@ -15,6 +15,10 @@ Each homework is organized in its own folder with sub-parts, source code, and a 
   - IoT alarm system  
   - Smart blinds with sensors and Blynk app  
   - IoT voting system  
+- **HW3/** → IoT communication and data integration  
+  - CoAP client–server alarm system  
+  - REST API–based hospital and blood bank management  
+  - MQTT + Node-RED + InfluxDB with simulated sensors and dashboards  
 
 ---
 
