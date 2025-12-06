@@ -23,6 +23,19 @@ This project implements a **complete IoT data pipeline** integrating **MQTT mess
 
 ---
 
+## 🌡️ Sensors Simulation
+This project includes **virtual sensors** that generate synthetic environmental data and publish it to MQTT topics.  
+Each sensor creates **randomized values** within realistic ranges and sends updates periodically (every 2 seconds).
+
+| Sensor | MQTT Topic | Data Range | Unit | Description |
+|---------|-------------|------------|------|--------------|
+| 🌡️ **Temperature Sensor** | `topic/sensor1/temperature` | 20 – 35 | °C | Simulates ambient temperature changes. |
+| 💧 **Humidity Sensor** | `topic/sensor1/humidity` | 40 – 60 | % | Generates random relative humidity readings. |
+| ⛅ **Pressure Sensor** | `topic/sensor2/pressure` | 900 – 1100 | hPa | Mimics atmospheric pressure values. |
+| 🌬️ **Wind Speed Sensor** | `topic/sensor3/wind_speed` | 0 – 15 | m/s | Represents varying wind speed conditions. |
+
+---
+
 ## 🌐 MQTT Topics
 | Topic | Description | Example Value |
 |--------|--------------|---------------|
