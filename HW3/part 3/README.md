@@ -71,4 +71,9 @@ SELECT * FROM temperature LIMIT 5
 - Eclipse Mosquitto MQTT Broker  
 - InfluxDB v1.8  
 - Node-RED Dashboard nodes  
-- Windows 10 Environment  
+
+---
+
+## 🎥 Demonstration
+https://github.com/user-attachments/assets/9ce3c834-bb3f-4888-9689-c7fbbc4e965a
+
