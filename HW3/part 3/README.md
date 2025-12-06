@@ -75,5 +75,4 @@ SELECT * FROM temperature LIMIT 5
 ---
 
 ## 🎥 Demonstration
-https://github.com/user-attachments/assets/9ce3c834-bb3f-4888-9689-c7fbbc4e965a
-
+https://github.com/user-attachments/assets/4c89bdc1-c90f-41e8-bbf1-d834e448528b
