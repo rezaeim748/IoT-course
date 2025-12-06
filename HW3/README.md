@@ -6,13 +6,11 @@ Each part of the homework is organized in its own folder with a dedicated `READM
 ---
 
 ## 📂 Structure
-- **part 1/** → Question 11 (Setting up MQTT broker and connecting Node-RED)  
-- **part 2/** → Question 12 (Simulating sensors and publishing data via MQTT)  
-- **part 3/** → Question 13 (Storing data in InfluxDB and creating dashboards in Node-RED)  
-- **videos/** → Demo videos for each part  
+- **part 1/** → CoAP client–server alarm demo (server exposes `/alarm`, client sends GET/POST).
+- **part 2/** → REST API–based hospital & blood bank management (HTTP, FastAPI).
+- **part 3/** → MQTT + Node-RED + InfluxDB pipeline with simulated sensors and dashboard.
 
 ---
 
 ## 📌 Notes
-- Each part has its **own README.md** with details.  
-- The sensors generate random data within specific ranges and send them to MQTT topics for visualization and analysis.  
+- Each part has its **own README.md** with details.
