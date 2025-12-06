@@ -25,7 +25,7 @@ This project implements a **complete IoT data pipeline** integrating **MQTT mess
 
 ## 🌡️ Sensors Simulation
 This project includes **virtual sensors** that generate synthetic environmental data and publish it to MQTT topics.  
-Each sensor creates **randomized values** within realistic ranges and sends updates periodically (every 2 seconds).
+Each sensor creates **randomized values** within realistic ranges and sends updates periodically.
 
 | Sensor | MQTT Topic | Data Range | Unit | Description |
 |---------|-------------|------------|------|--------------|
