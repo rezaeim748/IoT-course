@@ -34,16 +34,6 @@ Each sensor creates **randomized values** within realistic ranges and sends upda
 | ⛅ **Pressure Sensor** | `topic/sensor2/pressure` | 900 – 1100 | hPa | Mimics atmospheric pressure values. |
 | 🌬️ **Wind Speed Sensor** | `topic/sensor3/wind_speed` | 0 – 15 | m/s | Represents varying wind speed conditions. |
 
----
-
-## 🌐 MQTT Topics
-| Topic | Description | Example Value |
-|--------|--------------|---------------|
-| `topic/sensor1/temperature` | Ambient temperature (°C) | `25.6` |
-| `topic/sensor1/humidity` | Relative humidity (%) | `48.3` |
-| `topic/sensor2/pressure` | Atmospheric pressure (hPa) | `1012.4` |
-| `topic/sensor3/wind_speed` | Wind speed (m/s) | `9.7` |
-
 Each topic is subscribed to by a **Node-RED MQTT In** node.
 
 ---
